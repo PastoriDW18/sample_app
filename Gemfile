@@ -8,11 +8,12 @@ gem 'rails', '3.1.0'
 gem 'sqlite3', '1.3.5', :require => 'sqlite3'
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails', '2.8.1'
+	gem 'annotate'
 end
 
 group :test do
-	gem 'rspec', '2.0.1'
+	gem 'rspec', '2.8.0'
 	gem 'webrat' , '0.7.1'
 end
 
